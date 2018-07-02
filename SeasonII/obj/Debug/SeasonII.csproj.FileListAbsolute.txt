@@ -1,0 +1,14 @@
+C:\Users\Shiva\Dropbox\TR\CSbyKWS\SeasonII\obj\Debug\SeasonII.csprojAssemblyReference.cache
+C:\Users\Shiva\Dropbox\TR\CSbyKWS\SeasonII\obj\Debug\SeasonII.csproj.CoreCompileInputs.cache
+C:\Users\Shiva\Dropbox\TR\CSbyKWS\SeasonII\obj\Debug\SeasonII.exe
+C:\Users\Shiva\Dropbox\TR\CSbyKWS\SeasonII\obj\Debug\SeasonII.pdb
+C:\Users\Shiva\Dropbox\TR\CSbyKWS\SeasonII\bin\Debug\SeasonII.exe.config
+C:\Users\Shiva\Dropbox\TR\CSbyKWS\SeasonII\bin\Debug\SeasonII.exe
+C:\Users\Shiva\Dropbox\TR\CSbyKWS\SeasonII\bin\Debug\SeasonII.pdb
+C:\Users\u6067953\Dropbox\TR\CSbyKWS\SeasonII\bin\Debug\SeasonII.exe.config
+C:\Users\u6067953\Dropbox\TR\CSbyKWS\SeasonII\bin\Debug\SeasonII.exe
+C:\Users\u6067953\Dropbox\TR\CSbyKWS\SeasonII\bin\Debug\SeasonII.pdb
+C:\Users\u6067953\Dropbox\TR\CSbyKWS\SeasonII\obj\Debug\SeasonII.csprojResolveAssemblyReference.cache
+C:\Users\u6067953\Dropbox\TR\CSbyKWS\SeasonII\obj\Debug\SeasonII.csproj.CoreCompileInputs.cache
+C:\Users\u6067953\Dropbox\TR\CSbyKWS\SeasonII\obj\Debug\SeasonII.exe
+C:\Users\u6067953\Dropbox\TR\CSbyKWS\SeasonII\obj\Debug\SeasonII.pdb

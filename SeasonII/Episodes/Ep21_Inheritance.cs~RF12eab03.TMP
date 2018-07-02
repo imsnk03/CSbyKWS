@@ -1,0 +1,53 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SeasonII.Episodes
+{
+
+	public class Empployee
+	{
+		public string FirstName;
+		public string LastName;
+		public string Email;
+		
+		public void PrintFullName()
+		{
+			Console.Write(FirstName+" "+LastName);
+		}
+	}
+
+	public class FullTimeEmployee : Empployee
+	{
+		public float YearlySalary;
+		
+	}
+
+	public class PartTimeEmployee : Empployee
+	{
+		public float HourlyRate;
+	}
+
+	class Ep21_Inheritance
+	{
+		public static void InheritanceMain() {
+			FullTimeEmployee FTE = new FullTimeEmployee();
+			FTE.FirstName = "Shiv";
+			FTE.LastName = "Nag ";
+			FTE.YearlySalary = 5000;
+			FTE.PrintFullName();
+			Console.WriteLine(FTE.YearlySalary);
+			
+
+			PartTimeEmployee PTE = new PartTimeEmployee();
+			PTE.FirstName = "Me";
+			PTE.LastName = "nU ";
+			PTE.HourlyRate = 500;
+			PTE.PrintFullName();
+			Console.WriteLine(PTE.HourlyRate);
+			Console.ReadKey();
+		}
+	}
+}

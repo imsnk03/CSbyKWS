@@ -1,0 +1,143 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using SeasonII.Episodes;
+namespace SeasonII
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			//Nampespce1.Class1.Method1();
+			//Nampespce2.Class2.Method2();
+			//MergeNS.MergeC.MergeM();
+			//SeasonII.Episodes.InheritanceMainClass.InhertinanceMainMethod();
+			Ep22_MethodHiding.MethodHidingMain();
+		}
+	}
+
+}
+
+/*
+namespace Nampespce1
+{ 
+
+	class Class1
+	{
+		public static void Method1()
+		{
+			List<string> _list = new List<string>();
+			_list.Add("1");
+			_list.Add("13");
+			_list.Add("12");
+
+			List<string> clonedobj = new List<string>();
+			clonedobj = _list.Cloneext().ToList();
+
+			Console.WriteLine("Original List");
+			foreach (var i in _list)
+				Console.Write(i + " ");
+			Console.WriteLine("\n\n");
+			Console.WriteLine("Cloned List");
+			foreach (var i in clonedobj)
+				Console.Write(i + " ");
+
+			Console.ReadKey();
+		}
+	}
+
+	static class extensions
+	{
+		public static IList<T> Cloneext<T>(this IList<T> _list) where T : ICloneable
+		{
+			return (_list.Select(i => (T)i.Clone()).ToList());
+		}
+	}
+
+}
+
+
+namespace Nampespce2
+{
+
+	class Class2
+	{
+		public static void Method2()
+		{
+			IList<Student> studentList = new List<Student>() {
+								new Student(){ StudentID=1, StudentName="Windows"},
+								new Student(){ StudentID=2, StudentName="Dvd"},
+								new Student(){ StudentID=3, StudentName="Intel"},
+								new Student(){ StudentID=4, StudentName="Dell"}
+						};
+
+			//var search = studentList[2];
+			var copiedList = studentList.ToList();
+			studentList.RemoveAt(2);
+			//studentList.Insert(1, copiedList[2]);
+
+			Console.WriteLine("\n\nBelow is copy of original list");
+			foreach (var item in copiedList)
+				Console.WriteLine(item.StudentID + "=>" + item.StudentName);
+
+			Console.WriteLine("\n\nBelow is Deleted List");
+			foreach (var item in studentList)
+				Console.WriteLine(item.StudentID + "=>" + item.StudentName);
+
+			
+
+			Console.ReadKey();
+		}
+	}
+
+	public class Student
+	{
+		public int StudentID { get; set; }
+		public string StudentName { get; set; }
+	}
+
+}
+
+
+namespace MergeNS
+{
+
+	class MergeC
+	{
+		public static void MergeM()
+		{
+			IList<Student> studentList = new List<Student>() {
+								new Student(){ StudentID=1, StudentName="Windows"},
+								new Student(){ StudentID=2, StudentName="Dvd"},
+								new Student(){ StudentID=3, StudentName="Intel"},
+								new Student(){ StudentID=4, StudentName="Dell"}
+						};
+
+			List<string> clonedobj = new List<string>();
+			clonedobj = _list.Cloneext().ToList();
+
+			Console.WriteLine("Original List");
+			foreach (var i in _list)
+				Console.Write(i + " ");
+			Console.WriteLine("\n\n");
+			Console.WriteLine("Cloned List");
+			foreach (var i in clonedobj)
+				Console.Write(i + " ");
+
+			Console.ReadKey();
+		}
+	}
+
+	static class extensions
+	{
+		public static IList<T> Cloneext<T>(this IList<T> _list) where T : ICloneable
+		{
+			return (_list.Select(i => (T)i.Clone()).ToList());
+		}
+	}
+
+}
+
+	*/

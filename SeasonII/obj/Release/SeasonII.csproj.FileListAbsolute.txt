@@ -1,0 +1,7 @@
+C:\Users\Shiva\Dropbox\TR\CSbyKWS\SeasonII\bin\Release\SeasonII.exe.config
+C:\Users\Shiva\Dropbox\TR\CSbyKWS\SeasonII\bin\Release\SeasonII.exe
+C:\Users\Shiva\Dropbox\TR\CSbyKWS\SeasonII\bin\Release\SeasonII.pdb
+C:\Users\Shiva\Dropbox\TR\CSbyKWS\SeasonII\obj\Release\SeasonII.csprojAssemblyReference.cache
+C:\Users\Shiva\Dropbox\TR\CSbyKWS\SeasonII\obj\Release\SeasonII.csproj.CoreCompileInputs.cache
+C:\Users\Shiva\Dropbox\TR\CSbyKWS\SeasonII\obj\Release\SeasonII.exe
+C:\Users\Shiva\Dropbox\TR\CSbyKWS\SeasonII\obj\Release\SeasonII.pdb

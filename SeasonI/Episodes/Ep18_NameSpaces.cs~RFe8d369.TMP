@@ -1,0 +1,60 @@
+﻿using System;
+//using ProjectA;
+//using ProjectA.TeamA;
+//using ProjectA.TeamB;
+using PATA = ProjectA.TeamA;
+using PATB = ProjectA.TeamB;
+
+
+namespace SeasonI.Episodes
+{
+	class Ep18_NameSpaces
+	{
+		public static void NameSpacesMain()
+		{
+			
+			//ProjectA.TeamA.ClassA.MainClassA();
+			//ProjectA.TeamB.ClassA.MainClassA();
+
+			//ClassA.MainClassA();
+			//ClassA.MainClassA();
+
+			PATA.ClassA.MainClassA();
+			PATB.ClassA.MainClassA();
+
+
+
+
+
+			Console.ReadKey();
+		}
+	}
+}
+
+	namespace ProjectA
+	{
+		namespace TeamA
+		{
+			class ClassA
+			{
+				public static void MainClassA()
+				{
+					Console.WriteLine("Hi iam a class of TeamA");
+				}
+			}
+		}
+
+		namespace TeamB
+		{
+			class ClassA
+			{
+				public static void MainClassA()
+				{
+					Console.WriteLine("Hi iam a class of TeamB");
+				}
+			}
+		}
+	}
+
+
+

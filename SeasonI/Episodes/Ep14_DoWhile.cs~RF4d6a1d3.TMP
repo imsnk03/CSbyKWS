@@ -1,0 +1,38 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SeasonI.Episodes
+{
+	class Ep14_DoWhile
+	{
+		public static void DoWhileMain()
+		{
+
+			Console.Write("Please enter a number target: ");
+
+			int UserTarget = int.Parse(Console.ReadLine());
+			int Start = 0;
+			do
+			{
+				Console.Write(Start + " ");
+				Start = Start + 2;
+			} while (Start <= UserTarget);
+
+
+			Console.WriteLine(" Terminate the Program Yes | No");
+			string UserChoice;
+			UserChoice.ToUpper() = Console.ReadLine();
+			do
+			{
+				if (UserChoice != "YES" && UserChoice != "NO" )
+					Console.WriteLine("Please give an valid answer");
+			} while ();
+
+			Console.ReadKey();
+
+		}
+	}
+}
